@@ -1,9 +1,5 @@
 # lede-cups
 
-git clone https://github.com/lede-project/source
-
-cd source
-
 echo "src-git cups https://github.com/Gr4ffy/lede-cups.git" >> feeds.conf.default
 
 ./scripts/feeds update -a
